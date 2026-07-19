@@ -1,0 +1,61 @@
+# Pastas geradas pela Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Builds e exportações
+[Bb]uild/
+[Bb]uilds/
+[Dd]ist/
+[Ee]xport/
+[Ee]xports/
+*.exe
+*.apk
+*.aab
+*.pck
+*.zip
+
+# Arquivos da Unity não necessários neste repositório de código
+*.meta
+
+# Arquivos de editores e IDEs
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.suo
+
+# Imagens e artes
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.svg
+*.psd
+*.kra
+*.aseprite
+
+# Áudios
+*.wav
+*.ogg
+*.mp3
+*.flac
+
+# Vídeos
+*.mp4
+*.webm
+
+# Fontes
+*.ttf
+*.otf
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
