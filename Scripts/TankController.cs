@@ -27,7 +27,7 @@ public class TankController : MonoBehaviour
 
     public VictoryUIManager victoryUIManager;  // Referência ao VictoryUIManager
 
-    public TankIdentity tankIdentity;  // Adicione essa linha para referenciar o TankIdentity
+    public TankIdentity tankIdentity;  
 
     // Sistema de recarga
     private int bulletsFired = 0;       // Contador de balas disparadas
@@ -157,7 +157,7 @@ public class TankController : MonoBehaviour
             {
                 isOutOfScene = true;
             }
-            // Adicionando Debug.Log para garantir que a condição do Tank2 está sendo verificada
+            
             Debug.Log($"Tank2 está sendo verificado. Posição Y: {transform.position.y}");
         }
 
