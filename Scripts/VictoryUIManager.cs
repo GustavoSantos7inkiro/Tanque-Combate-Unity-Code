@@ -12,7 +12,7 @@ public class VictoryUIManager : MonoBehaviour
 
     void Start()
     {
-        // Certifique-se de que o painel de vitória começa desativado
+        
         victoryPanel.SetActive(false);
     }
 
