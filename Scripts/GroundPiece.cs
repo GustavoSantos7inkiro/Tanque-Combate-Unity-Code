@@ -44,6 +44,6 @@ public class GroundPiece : MonoBehaviour
     {
         // Desativa o bloco de chão após a explosão
         gameObject.SetActive(false);
-        // Ou use Destroy(gameObject) para destruir o objeto completamente
+        
     }
 }
