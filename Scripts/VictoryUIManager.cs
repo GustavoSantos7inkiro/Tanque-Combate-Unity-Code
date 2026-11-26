@@ -20,7 +20,7 @@ public class VictoryUIManager : MonoBehaviour
 public void ShowVictory(GameObject tank)
 {
     // Verifica o nome do tanque para determinar o vencedor
-    if (tank.name == "Tank") // Nome do seu objeto tanque
+    if (tank.name == "Tank") 
     {
         victoryText.text = "Adam Wins!";
     }
@@ -30,7 +30,7 @@ public void ShowVictory(GameObject tank)
     }
 
     // Exibe o painel de vitória
-    victoryPanel.SetActive(true);  // Supondo que você tenha um painel de vitória no UI
+    victoryPanel.SetActive(true);  
 }
     void RestartGame()
     {
